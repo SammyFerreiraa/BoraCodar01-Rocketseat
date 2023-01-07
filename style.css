@@ -307,4 +307,5 @@ main {
 #credits a {
   color: var(--color-title);
   font-weight: 700;
+  padding-bottom: 10px;
 }
