@@ -1,0 +1,310 @@
+* {
+  margin: 0px;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+:root {
+  --color-title: rgba(225, 225, 230, 1);
+  --color-desc: rgba(225, 225, 230, 0.67);
+  --color-bg: rgba(42, 33, 65, 1);
+  
+  --color-play: rgba(217, 217, 217, 0.8);
+  --color-pause: rgba(217, 217, 217, 0.3);
+  
+  --color-time: rgba(196, 196, 204, 0.7)
+}
+
+body {
+  width: 1037px;
+  height: 631px;
+  
+  padding: 66px 191px;
+  
+  background: #0F0D13;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  
+  position: absolute;
+}
+
+main {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+}
+
+/* REPRODUTOR ESQUERDA */
+
+#left_u {
+  background: var(--color-bg);
+  
+  width: 267px;
+  height: 498px;
+  padding: 51px 39px;
+  
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  
+  border-radius: 9.6px;
+}
+
+#logo {
+  width: 190px;
+  height: 190px;
+  
+  border-radius: 6px;
+}
+
+#text {
+  margin-top: 29.9px;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 9.9px;
+  
+}
+
+#title {
+  
+  color: var(--color-title);
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#desc {
+  color: var(--color-desc);
+  font-weight: 400;
+  font-size: 19.2px;
+}
+
+#nav {
+  margin: 29px auto;
+  
+  display: flex;
+  flex-direction: row;
+  gap: 48px;
+  padding: 0px;
+}
+
+#progress {
+  height: 6px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  
+}
+
+#progress p {
+  border-radius: 9.6px;
+}
+
+#one {
+  width: 165px;
+  height: 6px;
+  position: absolute;
+  z-index: 1;
+  
+  background: var(--color-play);
+}
+
+#one_two {
+  width: 190px;
+  height: 6px;
+  
+  position: absolute;
+  z-index: 0;
+  
+  background: var(--color-pause);
+}
+
+#time {
+  margin-top: 9.6px;
+  display: flex;
+  flex-direction: row;
+  gap: 117px;
+  
+  font-size: 14.4px;
+  
+  color: var(--color-time);
+}
+
+/* REPRODUTOR DIREITA */
+
+#right_top {
+  height: 267px;
+  width: 358px;
+  
+  background: var(--color-bg);
+  
+  padding: 29px;
+  border-radius: 9.6px;
+  
+  display: flex;
+  flex-direction: column;
+}
+
+#top_right_top {
+  display: flex;
+  flex-direction: row;
+  
+  width: 300px;
+  
+  gap: 29px;
+  
+}
+
+#logo_two {
+  width: 84.5px;
+  height: 84.5px;
+  
+  border-radius: 6px;
+}
+
+#text_two {
+  display: flex;
+  flex-direction: column;
+  gap: 9.6px;
+  justify-content: center;
+}
+
+#title_two {
+  color: var(--color-title);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#desc_two {
+  color: var(--color-desc);
+  font-weight: 400;
+  font-size: 19.2px;
+}
+
+/* NAV REPRODUTOR DIREITA TOP */
+
+#nav_two {
+  display: flex;
+  flex-direction: row;
+  gap: 50.5px;
+  justify-content: center;
+  
+  margin: 29px;
+}
+
+#progress_two {
+  height: 6px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#progress_two p {
+  border-radius: 9.6px;
+}
+
+#two {
+  width: 261px;
+  height: 6px;
+  
+  position: absolute;
+  z-index:1;
+  
+  background: var(--color-play);
+}
+
+#two_two {
+  height: 6px;
+  width: 300px;
+  
+  position: absolute;
+  z-index:0;
+  
+  background: var(--color-pause);
+}
+
+#time_two {
+  color: var(--color-time);
+  
+  margin-top: 9.6px;
+  display: flex;
+  flex-direction: row;
+  gap:228px;
+  
+ font-size: 14.4px;
+}
+
+/* REPRODUTOR DIREITA BOTTOM */
+
+#right {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  
+}
+
+#right_bottom {
+  width: 358px;
+  height: 199px;
+  
+  padding: 29px;
+  border-radius: 9.6px;
+  
+  background: var(--color-bg);
+}
+
+#top_right_bottom {
+  display: flex;
+  flex-direction: row;
+  gap: 29px;
+}
+
+#logo_three {
+  height: 84px;
+  width: 84px;
+  
+  border-radius: 6px;
+}
+
+#text_three {
+  display: flex ;
+  flex-direction: column;
+  justify-content: center;
+  gap: 9.6px;
+}
+
+#title_three {
+  color: var(--color-title);
+  font-size: 24px;
+  font-weight: 700;
+}
+
+#desc_three {
+  color: var(--color-desc);
+  font-size: 19.2px;
+  font-weight: 400;
+}
+
+#nav_three {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 50.5px;
+  margin: 29px;
+}
+
+/* ME */
+
+#credits {
+  color: var(--color-title);
+  font-weight: 700;
+}
+
+#credits a {
+  color: var(--color-title);
+  font-weight: 700;
+}
