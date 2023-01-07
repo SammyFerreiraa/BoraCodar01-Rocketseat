@@ -32,5 +32,5 @@
   
   Desafio 01 #boraCodar da Rocketseat - Player de música 
   
-  Live site URL :  [Desafio 01 #boraCodar - Rocketseat ](https://sammyferreira1.github.io/ProjectSubscriptionBeta/)
+  Live site URL :  [Desafio 01 #boraCodar - Rocketseat ](https://sammyferreira1.github.io/BoraCodar01-Rocketseat/)
   
